@@ -48,12 +48,6 @@ Real-time autonomous drone navigation system using YOLOv8 object detection, A* p
 
 ![FastAPI](Screenshot%20\(85\).png)
 
-## Future Improvements
-
-* Real drone integration
-* GPS-based navigation
-* SLAM mapping
-* Multi-drone coordination
 
 ## Installation
 
@@ -149,7 +143,14 @@ AI-Autonomous-Drone-Navigation-System
 ├── README.md
 ```
 
+## Future Improvements
 
+* Real drone integration
+* GPS-based navigation
+* SLAM mapping
+* Multi-drone coordination
+
+  
 ## Author
 
 Priya Kumari
