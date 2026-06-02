@@ -1,16 +1,60 @@
-# React + Vite
+# AI Autonomous Drone Navigation System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Real-time autonomous drone navigation system using YOLOv8 object detection, A* path planning, FastAPI, and React.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Real-time object detection using YOLOv8
+* Dynamic obstacle avoidance
+* A* path planning visualization
+* Safe path coordinate generation
+* Voice navigation alerts
+* Live camera feed
+* Obstacle counting
+* FastAPI backend
+* React frontend dashboard
 
-## React Compiler
+## Technology Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
 
-## Expanding the ESLint configuration
+* React
+* Vite
+* JavaScript
+* CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend
+
+* FastAPI
+* OpenCV
+* Python
+
+### AI & Algorithms
+
+* YOLOv8
+* A* Path Planning
+
+## Screenshots
+
+### Main Dashboard
+
+![Dashboard](Screenshot%20\(88\).png)
+
+### Path Planning
+
+![Path Planning](Screenshot%20\(87\).png)
+
+### Backend API
+
+![FastAPI](Screenshot%20\(85\).png)
+
+## Future Improvements
+
+* Real drone integration
+* GPS-based navigation
+* SLAM mapping
+* Multi-drone coordination
+
+## Author
+
+Priya Kumari
