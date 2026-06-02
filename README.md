@@ -74,11 +74,35 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-Backend will start at:
+## Backend API
+
+After starting the FastAPI server:
+
+**API Base URL**
 
 ```text
 http://127.0.0.1:8000
 ```
+
+**Interactive Swagger Documentation**
+
+```text
+http://127.0.0.1:8000/docs
+```
+
+### Sample API Response
+
+```json
+{
+  "message": "YOLO Detection Active",
+  "object": "person",
+  "danger": "MEDIUM",
+  "direction": "CENTER",
+  "action": "STOP",
+  "path": [[0,0],[1,1],[2,2]]
+}
+```
+
 
 ### Frontend Setup
 
