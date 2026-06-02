@@ -38,11 +38,11 @@ Real-time autonomous drone navigation system using YOLOv8 object detection, A* p
 
 ### Main Dashboard
 
-![Dashboard](Screenshot%20\(88\).png)
+![Dashboard](Screenshot%20\(87\).png)
 
 ### Path Planning
 
-![Path Planning](Screenshot%20\(87\).png)
+![Path Planning](Screenshot%20\(88\).png)
 
 ### Backend API
 
